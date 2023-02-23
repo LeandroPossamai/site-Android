@@ -1,0 +1,103 @@
+@charset "UTF-8" ;
+
+@font-face {
+font-family: 'grande';
+src: url('fontes/Principality.ttf') format('truetype') ;
+}
+
+@font-face {
+    font-family:'robo' ;
+    src: url(fontes/fonte.robo.otf) format('opentype')
+}
+h1{
+    font-family: 'robo';
+    text-align: center;
+}
+    
+
+
+h1#principal{
+    font-family: 'grande';
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+p{
+
+    text-indent: 30px;
+}
+
+p.secundario{
+    text-align: center;
+    
+
+}
+a:hover{
+color: rgb(0, 0, 0);
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(85, 150, 150);
+    padding: 10px;
+}
+
+header{
+    background-color: #c5e9d2;
+}
+nav{
+    background-color:#ffffff ;
+}
+body{
+    background-color: #7ae6a0;
+}
+main{
+    background-color: white;
+    
+}
+h2{
+    font-family: 'robo';
+    background-color: #c5e9d2;
+    color: #42d876;
+}
+aside{
+    background-color: #197a3b;
+}
+aside.lista{
+    background-color: #79e69a;
+    border-radius: 10px 0px;
+}
+h3{
+    color: white;
+    text-align: left;
+}
+ol.esquerda {
+    text-align: left ;
+}
+aside.centro{
+    text-align: center;
+}
+main.centro{
+    text-align: center;
+}
+ol{
+-webkit-column-count: 2;
+-moz-column-count: 2;
+column-count: 2;
+
+}
+    li:hover{
+        text-decoration: underline;
+        color: white;
+      
+    }
+    a.link{
+        color: rgb(255, 255, 255);
+    }
+    footer{
+        text-align: center;
+        background-color: #197a3b;
+        color: #ffffff;
+        
+    }
+
